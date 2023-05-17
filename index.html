@@ -58,22 +58,23 @@
         background:#050210;
     }
     #circle-black-3 {
-        width: 2px;
-        height: 2px;
-        top: 274px;
-        left: 374px;
+        width: 300px;
+        height: 300px;
+        top: 125px;
+        left: 225px;
         background:#050210;
         filter: brightness(2.5);
         animation-name: crestere;
         animation-duration: 2s;
         animation-iteration-count: infinite;
+        animation-direction: reverse;
     }
     @keyframes crestere {
         0% {
             transform: scale(1,1);
         }
         100% {
-            transform: scale(150,150);
+            transform: scale(0.0033,0.0033);
         }
     }
     @keyframes rotire {
